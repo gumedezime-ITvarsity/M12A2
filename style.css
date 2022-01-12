@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+}
+
+#avatarImage{
+    border-collapse: collapse;
+    padding-bottom: 10px;
+}
+
+#editForm{
+    background-color: chocolate;
+    border-style: solid;
+    padding-left: 40px;
+}
+
+#table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+#table td{
+    border: 1px solid #dedede;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.col1{
+    width:  10%;
+}
+
+.col2{
+    width: 45%;
+}
+
+button{
+    border-radius: 50%;
+    background-color: darkslategrey;
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1rem;
+}
